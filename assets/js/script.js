@@ -25,7 +25,7 @@ function formatAMPM(date) {
   });
 }
 
-let isCelcius = false;
+let isCelcius = true;
 let selectedCity;
 $(".checkbox").change(function () {
   isCelcius = !this.checked;
